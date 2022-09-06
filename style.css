@@ -1,0 +1,25 @@
+div{background-color:red;
+width:300px;
+height:300px;
+margin-left:50px;
+margin-top:50px;
+border-radius: 50%;
+border:10px solid black;
+border-top: 10px solid transparent;
+animation-name: spiner;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+
+}
+
+@keyframes spiner{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
